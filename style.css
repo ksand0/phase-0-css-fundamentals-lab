@@ -3,3 +3,77 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/*update header*/
+
+header {
+  text-align: center;
+}
+
+/*center image*/
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Jazz up navbar*/
+
+#navBarLinks {
+  background-color: rgb(224, 224, 224);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#navBarLinks:link {
+  color: rgb(67, 20, 223);
+}
+#navBarLinks:visited {
+  color: rgb(67, 20, 223);
+}
+#navBarLinks:hover {
+  color: rgb(76, 148, 255);
+}
+#navBarLinks:active {
+  color: rgb(76, 148, 255);
+}
+
+/*image caption work*/
+
+figcaption {
+  text-align: center;
+}
+
+/*update text block*/
+
+.textBlock {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: center;
+}
+
+/*make #details section horizontal*/
+
+.footer {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: rgb(188, 2, 55);
+}
+
+#footerLinks:link {
+  color: rgb(67, 20, 223);
+}
+#footerLinks:visited {
+  color: rgb(67, 20, 223);
+}
+#footerLinks:hover {
+  color: rgb(76, 148, 255);
+}
+#footerLinks:active {
+  color: rgb(76, 148, 255);
+}
